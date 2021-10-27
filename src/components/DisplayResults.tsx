@@ -10,13 +10,9 @@ interface DisplayResultsProps {
 const DisplayResults = ({ resultsArray }: DisplayResultsProps) => {
   return (
     <Row>
-      {/* {resultsArray === void
-        ? ""
-        : resultsArray.map((obj) => <AlbumCard obj={obj} />)} */}
       {resultsArray.map((obj) => (
         <AlbumCard obj={obj} />
       ))}
-      {/* {console.log(resultsArray)} */}
     </Row>
   );
 };

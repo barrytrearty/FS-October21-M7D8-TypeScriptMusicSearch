@@ -1,6 +1,6 @@
 import React from "react";
 import Song from "../typings/Types";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 interface AlbumCardProps {
   obj: Song;
